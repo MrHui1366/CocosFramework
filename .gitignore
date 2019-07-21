@@ -1,2 +1,4 @@
 /temp
 /local/logs
+/library
+/local/node-tree-state.json

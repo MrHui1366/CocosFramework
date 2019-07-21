@@ -1,9 +1,0 @@
-{
-  "__type__": "cc.ParticleAsset",
-  "_name": "touch",
-  "_objFlags": 0,
-  "_native": ".plist",
-  "spriteFrame": {
-    "__uuid__": "7852ad01-5755-4ff2-ac8d-d2e5c30861f2"
-  }
-}

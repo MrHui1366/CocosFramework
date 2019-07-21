@@ -1,7 +1,0 @@
-{
-  "__type__": "cc.TextAsset",
-  "_name": "_CExNode.d",
-  "_objFlags": 0,
-  "_native": "",
-  "text": "\r\n/**\r\n * CoffeeBean\r\n * Cocos cc.Node扩展\r\n * \r\n * By Leo\r\n */\r\nnamespace cc {\r\n    interface Node {\r\n        /**\r\n         * 从Node的儿子中查找组件\r\n         * 支持路径连写\r\n         * @param relative_path 要查找的相对路径\r\n         * @param type 要查找的组件类型\r\n         */\r\n        findChildComponent<T extends cc.Component> ( this: cc.Node, relative_path: string, type: { prototype: T } ): T;\r\n\r\n        /**\r\n         * 根据相对路径获取儿子\r\n         * @param relative_path 相对路径\r\n         */\r\n        getChildByRelativePath ( this: cc.Node, relative_path: string ): cc.Node;\r\n\r\n        /**\r\n         * 强调一个节点\r\n         * @param type 1 放大强调  2 颜色强调 3 闪烁  4 跳1下\r\n         */\r\n        accentNode ( this: cc.Node, type?: number ): void;\r\n\r\n        /*** 得到一个节点的摄像机坐标 ***/\r\n        getCameraPos ( this: cc.Node ): cc.Vec2;\r\n\r\n        /**\r\n         * 设置一个节点为他容器的最顶层\r\n         */\r\n        set_2_Top ( this: cc.Node ): void;\r\n\r\n        /*** 设置全屏 ***/\r\n        setFullScreen ( this: cc.Node ): void;\r\n\r\n        /**\r\n         * 重置参数\r\n         * 锚点设为 0.5,0.5\r\n         * 缩放设置为 1,1,1\r\n         *\r\n         * @param this\r\n         * @memberof Node\r\n         */\r\n        reset ( this: cc.Node ): void;\r\n    }\r\n}"
-}

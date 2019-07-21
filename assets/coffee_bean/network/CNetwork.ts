@@ -10,6 +10,9 @@ import CLOG from "../utils/CLOG";
 /** 是否显示socket log ***/
 const SHOW_SOCKET_LOG: boolean = true;
 
+/*** Websocket log 头 ***/
+const TAG_SOCKET: string = "Socket";
+
 /**
  * 网络模块
  */
@@ -38,7 +41,7 @@ export default class CNetwork {
      * @param URL 服务器URL
      */
     public static tryConnect ( url: string ): void {
-        CLOG.IF( SHOW_SOCKET_LOG, "ready to connect to " + URL );
+        CLOG.IF( TAG_SOCKET, SHOW_SOCKET_LOG, "ready to connect to " + URL );
 
         if ( URL !== undefined ) {
             // 指派了地址就连接指派的地址
@@ -61,7 +64,7 @@ export default class CNetwork {
      * @param event 
      */
     private static onOpen ( event: Event ): void {
-        CLOG.IF( SHOW_SOCKET_LOG, "Server: " + this.nowConnectServerURL + " connected successful!" );
+        CLOG.IF( TAG_SOCKET, SHOW_SOCKET_LOG, "Server: " + this.nowConnectServerURL + " connected successful!" );
         this.isConnected = true;
         if ( this.onOpenCallback !== null ) {
             this.onOpenCallback( event )
@@ -73,7 +76,7 @@ export default class CNetwork {
      * @param event
      */
     private static onError ( event: Event ): void {
-        CLOG.EF( SHOW_SOCKET_LOG, "Server: " + this.nowConnectServerURL + " connected error!!" );
+        CLOG.EF( TAG_SOCKET, SHOW_SOCKET_LOG, "Server: " + this.nowConnectServerURL + " connected error!!" );
         if ( this.onErrorCallback !== null ) {
             this.onErrorCallback( event )
         }
@@ -84,7 +87,7 @@ export default class CNetwork {
      * @param event
      */
     private static onClose ( event: Event ) {
-        CLOG.IF( SHOW_SOCKET_LOG, "connected close!" );
+        CLOG.IF( TAG_SOCKET, SHOW_SOCKET_LOG, "connected close!" );
         this.isConnected = false;
 
         if ( this.onCloseCallback !== null ) {
@@ -126,7 +129,6 @@ export default class CNetwork {
     public static setOpenCallback ( callback: Function ) {
         this.onOpenCallback = callback;
     }
-
 
     /**
      * 连接失败，发送、接收数据失败或者处理数据出现错误 回调

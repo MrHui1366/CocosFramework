@@ -1,7 +1,0 @@
-{
-  "__type__": "cc.TextAsset",
-  "_name": "_CExSprite.d",
-  "_objFlags": 0,
-  "_native": "",
-  "text": "/**\r\n * CoffeeBean\r\n * Cocos Sprite扩展\r\n * \r\n * By Leo\r\n */\r\n\r\nnamespace cc {\r\n\r\n    interface Sprite {\r\n        /**\r\n         * 从远程服务器加载一个URL图片\r\n         * 需要远程服务器添加请求头的支持\r\n         * @param url 要加载的URL\r\n         */\r\n        loadURLImage ( this: cc.Sprite, url: string, sizeMode?: EPicSizeMode, complete_handler?: () => void ): void;\r\n    }\r\n}\r\n"
-}

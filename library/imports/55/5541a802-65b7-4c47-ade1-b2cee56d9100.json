@@ -1,7 +1,0 @@
-{
-  "__type__": "cc.TextAsset",
-  "_name": "_CExEvent.d",
-  "_objFlags": 0,
-  "_native": "",
-  "text": "/**\r\n * CoffeeBean\r\n * 自定义UI事件 扩展\r\n *\r\n * By Leo\r\n */\r\nnamespace cc.Event.EventUI {\r\n\r\n    /*** Toggle 切换事件 ***/\r\n    const TOGGLE: string = \"toggle\";\r\n    /*** 按钮点击事件 ***/\r\n    const CLICK: string = \"click\";\r\n}"
-}
