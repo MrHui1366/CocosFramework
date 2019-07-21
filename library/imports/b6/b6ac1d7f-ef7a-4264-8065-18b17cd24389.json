@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "_CExFunction.d",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "interface Function implements FunctionConstructor {\r\n    /**\r\n     * 返回一个函数是否绑定过this\r\n     *\r\n     * @returns\r\n     * @memberof Function\r\n     */\r\n    hasBind (): boolean;\r\n}"
+}

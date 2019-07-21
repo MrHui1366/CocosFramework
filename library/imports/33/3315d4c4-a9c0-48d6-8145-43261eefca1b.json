@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "_CExArray.d",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "/**\r\n * CoffeeBean\r\n * 数组 扩展\r\n *\r\n * By Leo\r\n */\r\ninterface Array<T> {\r\n\r\n    /*** 随机一项返回 ***/\r\n    randItem ( this: Array<T> ): T;\r\n\r\n    /**\r\n     * 随机打乱一个数组\r\n     * @param array 泛型数组引用\r\n     */\r\n    shuffle<T> ( array: Array<T> ): void;\r\n}\r\n"
+}

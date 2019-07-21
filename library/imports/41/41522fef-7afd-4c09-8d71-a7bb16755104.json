@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_corner",
+    "texture": "59e26dcf-6fcc-4298-b894-e0ebcd1630c6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      101,
+      103
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      101,
+      103
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

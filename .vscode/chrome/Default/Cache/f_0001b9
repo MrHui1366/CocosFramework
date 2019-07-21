@@ -1,0 +1,1117 @@
+window._CCSettings = {
+    designWidth: 750,
+    designHeight: 1334,
+    groupList: [
+        "default"
+    ],
+    collisionMatrix: [
+        [
+            true
+        ]
+    ],
+    platform: "web-desktop",
+    scripts: [
+        {
+            deps: {
+                "./utils/CLOG": 21
+            },
+            file: "preview-scripts/assets/coffee_bean/CoffeeBean.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/common/CEnum.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/common/CGlobal.js"
+        },
+        {
+            deps: {
+                "../common/CEnum": 1,
+                "../data/CBase64": 10,
+                "../utils/CUI": 26,
+                "../utils/CMath": 23,
+                "../common/CGlobal": 2
+            },
+            file: "preview-scripts/assets/coffee_bean/component/CLoading.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/core/CMap.js"
+        },
+        {
+            deps: {
+                "../utils/CLOG": 21,
+                "./CMap": 4,
+                "../common/CGlobal": 2
+            },
+            file: "preview-scripts/assets/coffee_bean/core/CMsg.js"
+        },
+        {
+            deps: {
+                "../utils/CLOG": 21,
+                "../common/CGlobal": 2
+            },
+            file: "preview-scripts/assets/coffee_bean/core/CRes.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/core/CSingleton.js"
+        },
+        {
+            deps: {
+                "./CRes": 6,
+                "../utils/CLOG": 21,
+                "../data/CLocalStore": 11
+            },
+            file: "preview-scripts/assets/coffee_bean/core/CSound.js"
+        },
+        {
+            deps: {
+                "./CRes": 6,
+                "../common/CGlobal": 2,
+                "../utils/CLOG": 21
+            },
+            file: "preview-scripts/assets/coffee_bean/core/CUIBase.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/data/CBase64.js"
+        },
+        {
+            deps: {
+                "./CUserData": 12
+            },
+            file: "preview-scripts/assets/coffee_bean/data/CLocalStore.js"
+        },
+        {
+            deps: {
+                "./../core/CSingleton": 7,
+                "./../core/CRes": 6
+            },
+            file: "preview-scripts/assets/coffee_bean/data/CUserData.js"
+        },
+        {
+            deps: {
+                "../utils/CMath": 23
+            },
+            file: "preview-scripts/assets/coffee_bean/expand/CExArray.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/expand/CExFunction.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/expand/CExNode.js"
+        },
+        {
+            deps: {
+                "../utils/CLOG": 21,
+                "../common/CGlobal": 2,
+                "../common/CEnum": 1
+            },
+            file: "preview-scripts/assets/coffee_bean/expand/CExSprite.js"
+        },
+        {
+            deps: {
+                "../utils/CMD5": 22
+            },
+            file: "preview-scripts/assets/coffee_bean/expand/CExString.js"
+        },
+        {
+            deps: {
+                "./../data/CUserData": 12,
+                "../utils/CLOG": 21
+            },
+            file: "preview-scripts/assets/coffee_bean/network/CHTTP.js"
+        },
+        {
+            deps: {
+                "../utils/CLOG": 21
+            },
+            file: "preview-scripts/assets/coffee_bean/network/CNetwork.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/utils/CDebug.js"
+        },
+        {
+            deps: {
+                "./CTime": 25
+            },
+            file: "preview-scripts/assets/coffee_bean/utils/CLOG.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/utils/CMD5.js"
+        },
+        {
+            deps: {
+                "./../common/CEnum": 1
+            },
+            file: "preview-scripts/assets/coffee_bean/utils/CMath.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/coffee_bean/utils/CObject.js"
+        },
+        {
+            deps: {
+                "./CMath": 23
+            },
+            file: "preview-scripts/assets/coffee_bean/utils/CTime.js"
+        },
+        {
+            deps: {
+                "./CLOG": 21
+            },
+            file: "preview-scripts/assets/coffee_bean/utils/CUI.js"
+        },
+        {
+            deps: {
+                "../coffee_bean/CoffeeBean": 0
+            },
+            file: "preview-scripts/assets/script/Sample.js"
+        }
+    ],
+    rawAssets: {
+        assets: {
+            "96e468ed-8821-4a16-a687-6d704918ffb3": [
+                "config/account.json",
+                "cc.JsonAsset"
+            ],
+            "75c8cbac-c933-42e2-8fe0-9200cca40b97": [
+                "config/square.json",
+                "cc.JsonAsset"
+            ],
+            "ad681668-2ba7-49f6-b418-d51297ea8b1b": [
+                "font/JXMScore.labelatlas",
+                "cc.LabelAtlas"
+            ],
+            "ce85064e-48db-4ec5-bc1b-27825daa5a3d": [
+                "font/JXMScoreNum.labelatlas",
+                "cc.LabelAtlas"
+            ],
+            "2d7fac0e-c7fd-436f-a61e-2e60c5244935": [
+                "font/artText",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c8916754-1b51-4086-b825-c96782e923cb": [
+                "font/artText.png",
+                "cc.Texture2D"
+            ],
+            "758d7c33-3e9e-4f92-9911-aecfe2c3bb6e": [
+                "font/jifenNum",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b08e2fed-7cfa-45b3-b58a-c18648951fec": [
+                "font/jifenNum.png",
+                "cc.Texture2D"
+            ],
+            "c064e47f-a33b-4544-9534-56b92ac5a5d6": [
+                "music/button_click.mp3",
+                "cc.AudioClip"
+            ],
+            "30958bba-d133-462f-9ab8-ed9a1546c45d": [
+                "music/draw.mp3",
+                "cc.AudioClip"
+            ],
+            "8b391c70-4b46-4888-a669-15fbae77f1b4": [
+                "music/game_over.mp3",
+                "cc.AudioClip"
+            ],
+            "937838e4-6313-4e60-bbc6-5636ac455c6f": [
+                "music/hit_floor.mp3",
+                "cc.AudioClip"
+            ],
+            "e31bba39-0558-461b-aa98-9621e235e316": [
+                "music/pass.mp3",
+                "cc.AudioClip"
+            ],
+            "8ef90765-472b-40ce-938b-c1a7eabaffa3": [
+                "particle/boom_smoke.plist",
+                "cc.ParticleAsset"
+            ],
+            "c5c4a2c5-cd7a-4fd8-b0c8-b6fe8ba6f91a": [
+                "particle/img_Smoke",
+                "cc.SpriteFrame",
+                1
+            ],
+            "87d83643-ffd8-422f-a642-ee5ecee248ef": [
+                "particle/img_Smoke.png",
+                "cc.Texture2D"
+            ],
+            "f0f7163d-f1eb-40d7-a54b-acfcbcc71421": [
+                "particle/img_Smoke2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "263b3251-6ec3-41cc-83fb-4f4936c8f393": [
+                "particle/img_Smoke2.png",
+                "cc.Texture2D"
+            ],
+            "a0cea515-eba1-4aeb-8996-1771c50a6a52": [
+                "particle/img_point",
+                "cc.SpriteFrame",
+                1
+            ],
+            "75040f57-0e10-494c-a97e-1203d4e2fc02": [
+                "particle/img_point.png",
+                "cc.Texture2D"
+            ],
+            "e89dd9d8-3550-481b-9308-d5ee2b9c5f52": [
+                "particle/touch.plist",
+                "cc.ParticleAsset"
+            ],
+            "78c2a381-a430-42a6-aabf-e61b0c8fe65a": [
+                "prefab/ui/UI_Popup.prefab",
+                "cc.Prefab"
+            ],
+            "d8c557d9-0077-47e3-952c-868d47e1937c": [
+                "sprite_altas/img_background",
+                "cc.SpriteFrame",
+                1
+            ],
+            "499487da-5f3d-4adc-b066-bea5c77de73a": [
+                "sprite_altas/img_background.jpg",
+                "cc.Texture2D"
+            ],
+            "fbf86f56-8431-47de-af48-dbc5da4a4b5d": [
+                "sprite_altas/img_drawBg",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ff10110a-306e-4af6-a5e3-1c8dbab10259": [
+                "sprite_altas/img_drawBg.jpg",
+                "cc.Texture2D"
+            ],
+            "0b0d826f-db54-4b37-ba50-c2626887b50f": [
+                "sprite_altas/ui/btn_award",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0c141cd0-9b73-4920-9360-1bb364c5e735": [
+                "sprite_altas/ui/btn_award.png",
+                "cc.Texture2D"
+            ],
+            "66ada4ee-6bc1-4862-be10-279de9fb6779": [
+                "sprite_altas/ui/btn_buy",
+                "cc.SpriteFrame",
+                1
+            ],
+            "070fe3b5-79ac-46a4-9701-b8b7001c7017": [
+                "sprite_altas/ui/btn_buy.png",
+                "cc.Texture2D"
+            ],
+            "c65234b5-2b3a-4687-9338-a6421c0e0754": [
+                "sprite_altas/ui/btn_cancel",
+                "cc.SpriteFrame",
+                1
+            ],
+            "09a51ae8-c1fc-42d7-afdb-8daa06187d75": [
+                "sprite_altas/ui/btn_cancel.png",
+                "cc.Texture2D"
+            ],
+            "9193b39a-2ce6-46a8-b43d-6d5d5fc09576": [
+                "sprite_altas/ui/btn_close",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ec232ac9-ac2c-4357-9408-d0a82ba7fb02": [
+                "sprite_altas/ui/btn_close.png",
+                "cc.Texture2D"
+            ],
+            "1a8c7408-90bf-4cce-b511-54063ea8d2e7": [
+                "sprite_altas/ui/btn_close_off",
+                "cc.SpriteFrame",
+                1
+            ],
+            "88491d23-b183-4385-91c9-9f41d3afc9bb": [
+                "sprite_altas/ui/btn_close_off.png",
+                "cc.Texture2D"
+            ],
+            "1fd72ada-ea5a-4bec-9b35-d57defd0d10e": [
+                "sprite_altas/ui/btn_close_on",
+                "cc.SpriteFrame",
+                1
+            ],
+            "88c70cb8-9e3f-44ec-b729-83f753bc8116": [
+                "sprite_altas/ui/btn_close_on.png",
+                "cc.Texture2D"
+            ],
+            "2ef24574-7a8b-450f-ba60-bd770c6e1595": [
+                "sprite_altas/ui/btn_draw",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7b768bd4-9707-416d-bd75-bf682daa389e": [
+                "sprite_altas/ui/btn_draw.png",
+                "cc.Texture2D"
+            ],
+            "d42a78c9-35e1-4ab5-9c9d-f51f98a8a53e": [
+                "sprite_altas/ui/btn_green",
+                "cc.SpriteFrame",
+                1
+            ],
+            "580710b7-05ca-44d1-a8ea-adbd3eea9024": [
+                "sprite_altas/ui/btn_green.png",
+                "cc.Texture2D"
+            ],
+            "c27012f5-60e6-4e56-b3d2-d94c66fbc8a2": [
+                "sprite_altas/ui/btn_help",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0f58f896-427d-431c-8140-7ad66f0d2f9d": [
+                "sprite_altas/ui/btn_help.png",
+                "cc.Texture2D"
+            ],
+            "91aad323-06db-40b0-ba1b-f8551a137aff": [
+                "sprite_altas/ui/btn_ok",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4815e561-c193-4aa0-a6af-8b083c18cbf7": [
+                "sprite_altas/ui/btn_ok.png",
+                "cc.Texture2D"
+            ],
+            "371c2338-0c8e-48e7-aa61-086956a6680a": [
+                "sprite_altas/ui/btn_prize",
+                "cc.SpriteFrame",
+                1
+            ],
+            "721dd8aa-d401-40c7-87c6-2a67915a2061": [
+                "sprite_altas/ui/btn_prize.png",
+                "cc.Texture2D"
+            ],
+            "5a57523d-bf8f-4b52-907e-25f5c7674b2d": [
+                "sprite_altas/ui/btn_quit",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d6c3f958-af87-4963-a4b9-dc10344c3ca9": [
+                "sprite_altas/ui/btn_quit.png",
+                "cc.Texture2D"
+            ],
+            "5eca1fe2-3449-4b18-92c8-3f736827f82a": [
+                "sprite_altas/ui/btn_rank",
+                "cc.SpriteFrame",
+                1
+            ],
+            "dd0e9761-1435-465e-8fc4-5341d192e824": [
+                "sprite_altas/ui/btn_rank.png",
+                "cc.Texture2D"
+            ],
+            "302fdfaf-ac64-4d1b-ad4c-38584ca25506": [
+                "sprite_altas/ui/btn_regular",
+                "cc.SpriteFrame",
+                1
+            ],
+            "02a6b6ea-33f7-480f-b4e2-741da4a24cdc": [
+                "sprite_altas/ui/btn_regular.png",
+                "cc.Texture2D"
+            ],
+            "1884eb1b-68b8-4bb3-8dd4-51d55772b8d1": [
+                "sprite_altas/ui/btn_startgame",
+                "cc.SpriteFrame",
+                1
+            ],
+            "aed55aa3-a127-4a9b-8238-dda8e0406c18": [
+                "sprite_altas/ui/btn_startgame.png",
+                "cc.Texture2D"
+            ],
+            "04baf676-d55a-45eb-81d0-44d67bc308af": [
+                "sprite_altas/ui/btn_store",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5355f553-8362-4c99-aea1-0b3d47713b07": [
+                "sprite_altas/ui/btn_store.png",
+                "cc.Texture2D"
+            ],
+            "2012b694-cddd-4116-8c59-b33641f6177f": [
+                "sprite_altas/ui/btn_sure",
+                "cc.SpriteFrame",
+                1
+            ],
+            "082bd4f3-812b-4d37-be17-6d925f44d4d9": [
+                "sprite_altas/ui/btn_sure.png",
+                "cc.Texture2D"
+            ],
+            "ab1847db-34a4-4d92-ba60-0f1e515e472a": [
+                "sprite_altas/ui/btn_use",
+                "cc.SpriteFrame",
+                1
+            ],
+            "570fdb2a-144c-4a5d-b245-99a4694a3825": [
+                "sprite_altas/ui/btn_use.png",
+                "cc.Texture2D"
+            ],
+            "05883abb-d5e7-42a7-b235-d26e8213c405": [
+                "sprite_altas/ui/btn_using",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1b1666e4-c481-4761-960a-a424822f7f72": [
+                "sprite_altas/ui/btn_using.png",
+                "cc.Texture2D"
+            ],
+            "5c6cfba9-957e-4399-a8d7-2807db78e4d8": [
+                "sprite_altas/ui/btn_yellow",
+                "cc.SpriteFrame",
+                1
+            ],
+            "36500231-0324-4a31-92a7-6db2bec909b8": [
+                "sprite_altas/ui/btn_yellow.png",
+                "cc.Texture2D"
+            ],
+            "2d721355-b70e-4d87-9f36-b4820b349ab5": [
+                "sprite_altas/ui/img_PassHeadPanel",
+                "cc.SpriteFrame",
+                1
+            ],
+            "09e33785-0639-4f63-9080-bf629001d0a6": [
+                "sprite_altas/ui/img_PassHeadPanel.png",
+                "cc.Texture2D"
+            ],
+            "9aac714f-e975-43b3-9c92-06303041ef71": [
+                "sprite_altas/ui/img_actPrizes",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e5069948-57f5-4566-8a4f-be02b67e9496": [
+                "sprite_altas/ui/img_actPrizes.png",
+                "cc.Texture2D"
+            ],
+            "4e853b3e-ec20-443d-8e97-4014d4cc6e37": [
+                "sprite_altas/ui/img_actTime",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d2c29157-305c-4d7c-93ca-1ad15574bbde": [
+                "sprite_altas/ui/img_actTime.png",
+                "cc.Texture2D"
+            ],
+            "d428b637-7992-4d32-932b-f943e61f57eb": [
+                "sprite_altas/ui/img_actTitle",
+                "cc.SpriteFrame",
+                1
+            ],
+            "70a72a9a-ca40-4f9b-b0ca-6f96c858d83a": [
+                "sprite_altas/ui/img_actTitle.png",
+                "cc.Texture2D"
+            ],
+            "2ecc29aa-5af3-42f3-a207-915239f1b6a3": [
+                "sprite_altas/ui/img_ball_10x10",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3bfb94f0-b7d3-4436-a5fa-529d438c07e6": [
+                "sprite_altas/ui/img_ball_10x10.png",
+                "cc.Texture2D"
+            ],
+            "e80c509b-a857-41fa-8290-f1687fb57394": [
+                "sprite_altas/ui/img_ball_6x6",
+                "cc.SpriteFrame",
+                1
+            ],
+            "01d5fbeb-7b9d-4ece-a9b2-b5684d4e38a9": [
+                "sprite_altas/ui/img_ball_6x6.png",
+                "cc.Texture2D"
+            ],
+            "77017fb7-7f96-4f4d-be2a-4ac3868c04bb": [
+                "sprite_altas/ui/img_bottom",
+                "cc.SpriteFrame",
+                1
+            ],
+            "02d6dea3-351c-419b-a329-6ef31252ef7f": [
+                "sprite_altas/ui/img_bottom.png",
+                "cc.Texture2D"
+            ],
+            "a75d309f-b1df-478f-85a5-dd1ff88431c0": [
+                "sprite_altas/ui/img_color_point_1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ab8c7dfd-aacf-41ff-88b1-a4ed12ee2dde": [
+                "sprite_altas/ui/img_color_point_1.png",
+                "cc.Texture2D"
+            ],
+            "0b08fa24-5b5b-4a9c-ba29-2856ca8835c1": [
+                "sprite_altas/ui/img_color_point_2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "aa55fc7f-0630-4383-9037-96a1e6a26813": [
+                "sprite_altas/ui/img_color_point_2.png",
+                "cc.Texture2D"
+            ],
+            "dd73b32b-ef60-43ca-8b6a-a138bc078f12": [
+                "sprite_altas/ui/img_color_point_3",
+                "cc.SpriteFrame",
+                1
+            ],
+            "06c2f2e2-9f67-434f-8837-7543c152c8c3": [
+                "sprite_altas/ui/img_color_point_3.png",
+                "cc.Texture2D"
+            ],
+            "41522fef-7afd-4c09-8d71-a7bb16755104": [
+                "sprite_altas/ui/img_corner",
+                "cc.SpriteFrame",
+                1
+            ],
+            "59e26dcf-6fcc-4298-b894-e0ebcd1630c6": [
+                "sprite_altas/ui/img_corner.png",
+                "cc.Texture2D"
+            ],
+            "e2847297-8283-4cef-8f41-3b2869f436c4": [
+                "sprite_altas/ui/img_dash",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b5fdafe0-8d02-48d2-b341-fed576f4138a": [
+                "sprite_altas/ui/img_dash.png",
+                "cc.Texture2D"
+            ],
+            "b90a3a9b-e453-4181-8758-08185bccc324": [
+                "sprite_altas/ui/img_dottedline",
+                "cc.SpriteFrame",
+                1
+            ],
+            "da44d3c7-3387-4d19-aba6-75af9591e550": [
+                "sprite_altas/ui/img_dottedline.png",
+                "cc.Texture2D"
+            ],
+            "43dffc70-f841-4d4d-b83a-900afd08c739": [
+                "sprite_altas/ui/img_flag",
+                "cc.SpriteFrame",
+                1
+            ],
+            "76c1dc03-c019-445b-a073-42ca9677180f": [
+                "sprite_altas/ui/img_flag.png",
+                "cc.Texture2D"
+            ],
+            "32e24b4e-b31b-4cde-9e12-91b4b5dd083d": [
+                "sprite_altas/ui/img_frame_score",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c48b0e16-24ba-4aae-b074-f68bc63e6d6e": [
+                "sprite_altas/ui/img_frame_score.png",
+                "cc.Texture2D"
+            ],
+            "80229ad0-92ae-4619-9aad-05f14dc9cc74": [
+                "sprite_altas/ui/img_headFrame",
+                "cc.SpriteFrame",
+                1
+            ],
+            "87825c34-9de4-47f8-8a4d-5964c88b402f": [
+                "sprite_altas/ui/img_headFrame.png",
+                "cc.Texture2D"
+            ],
+            "05a2019e-a817-4b91-b332-a7ed26b58f72": [
+                "sprite_altas/ui/img_head_frame_rect",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c0e44799-7664-4e2d-b133-05306e499efe": [
+                "sprite_altas/ui/img_head_frame_rect.png",
+                "cc.Texture2D"
+            ],
+            "ea99b673-1f0c-4bc1-bcf3-94cbfa69c886": [
+                "sprite_altas/ui/img_inner_halfround_11",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2da37412-4aaf-47d5-96c8-dcb2284c7a46": [
+                "sprite_altas/ui/img_inner_halfround_11.png",
+                "cc.Texture2D"
+            ],
+            "9861a55a-078d-4fa3-9f34-8c9ff3c6d43f": [
+                "sprite_altas/ui/img_inner_round_11",
+                "cc.SpriteFrame",
+                1
+            ],
+            "34537676-6f77-4ac9-abb9-9f30c302be17": [
+                "sprite_altas/ui/img_inner_round_11.png",
+                "cc.Texture2D"
+            ],
+            "9f6b8614-ab95-44be-a57e-e6b50e6f35c8": [
+                "sprite_altas/ui/img_jxb",
+                "cc.SpriteFrame",
+                1
+            ],
+            "63554a8b-35ef-4d33-9e74-c2a354f1246f": [
+                "sprite_altas/ui/img_jxb.png",
+                "cc.Texture2D"
+            ],
+            "dc47905f-c6a4-4217-b7b1-86e144d417ad": [
+                "sprite_altas/ui/img_kuang",
+                "cc.SpriteFrame",
+                1
+            ],
+            "35e0d508-a4eb-43ef-a5c7-7554cdcd6ae3": [
+                "sprite_altas/ui/img_kuang.png",
+                "cc.Texture2D"
+            ],
+            "9873a86f-92af-45f7-84e6-385be511b198": [
+                "sprite_altas/ui/img_laser",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bc892b4a-fc9a-4bbb-8e37-6c258aaed471": [
+                "sprite_altas/ui/img_laser.png",
+                "cc.Texture2D"
+            ],
+            "419957d4-95e5-44bf-9484-1ddfad7ee2f6": [
+                "sprite_altas/ui/img_laser_shoot",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d17aa204-aa99-4a93-8862-70267ed0b1c8": [
+                "sprite_altas/ui/img_laser_shoot.png",
+                "cc.Texture2D"
+            ],
+            "86f650df-d9bf-491b-800e-08eb216d2a7e": [
+                "sprite_altas/ui/img_light",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c8f8934d-ca2c-4502-ab3b-eb4f89b84157": [
+                "sprite_altas/ui/img_light.png",
+                "cc.Texture2D"
+            ],
+            "56d97de8-0d9b-4d86-8d94-c8d8df82892a": [
+                "sprite_altas/ui/img_line",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f04e2fbc-f3a9-44ff-a60a-bc1ab2a577a4": [
+                "sprite_altas/ui/img_line.png",
+                "cc.Texture2D"
+            ],
+            "8f4cbd2a-ba77-463a-8996-c418b4aead25": [
+                "sprite_altas/ui/img_linee",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a9fb330b-cd34-448b-8323-8a786b0f5d24": [
+                "sprite_altas/ui/img_linee.png",
+                "cc.Texture2D"
+            ],
+            "b1d366da-fe1c-4acc-99ad-9ffee91931ca": [
+                "sprite_altas/ui/img_logo",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6ef784c2-bf93-45f7-9cce-899841513183": [
+                "sprite_altas/ui/img_logo.png",
+                "cc.Texture2D"
+            ],
+            "e00d1733-f9ef-4020-8c3a-f7307498efa9": [
+                "sprite_altas/ui/img_man",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3cb8e130-c5fb-458e-9f82-28d170953022": [
+                "sprite_altas/ui/img_man.png",
+                "cc.Texture2D"
+            ],
+            "419db775-68c2-47a3-a1bb-59cc9ddf088a": [
+                "sprite_altas/ui/img_mask",
+                "cc.SpriteFrame",
+                1
+            ],
+            "206ae2dd-1a04-4a97-a812-76ef218a69a1": [
+                "sprite_altas/ui/img_mask.png",
+                "cc.Texture2D"
+            ],
+            "5df80ee0-947e-4a5e-8c3c-04cb076e4b0e": [
+                "sprite_altas/ui/img_myAward",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ca645d6c-5ce6-44aa-bc7b-fc615e3aadf8": [
+                "sprite_altas/ui/img_myAward.png",
+                "cc.Texture2D"
+            ],
+            "bb50b7c9-d46c-409c-8c09-5cf12d2895e8": [
+                "sprite_altas/ui/img_numback",
+                "cc.SpriteFrame",
+                1
+            ],
+            "80ecda33-8ea0-4826-b855-9d583199020a": [
+                "sprite_altas/ui/img_numback.png",
+                "cc.Texture2D"
+            ],
+            "8166b859-7d96-4fd0-ac7c-7139334d168b": [
+                "sprite_altas/ui/img_panel_back",
+                "cc.SpriteFrame",
+                1
+            ],
+            "016715f3-b9a8-40fb-a2a5-8e0f05a0b7b2": [
+                "sprite_altas/ui/img_panel_back.png",
+                "cc.Texture2D"
+            ],
+            "569642d2-a6f1-46f0-9f50-90c665c56aea": [
+                "sprite_altas/ui/img_panel_upper",
+                "cc.SpriteFrame",
+                1
+            ],
+            "80908b7f-410f-450e-9a5d-e535eebb8088": [
+                "sprite_altas/ui/img_panel_upper.png",
+                "cc.Texture2D"
+            ],
+            "7985d4b9-3e04-4b80-8f0c-1aa3e6ab50c0": [
+                "sprite_altas/ui/img_pointer",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cce803eb-4356-4462-ad93-813af5db476c": [
+                "sprite_altas/ui/img_pointer.png",
+                "cc.Texture2D"
+            ],
+            "df454380-0e63-4c78-b27f-81f842821c00": [
+                "sprite_altas/ui/img_rank_1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "40859818-6053-476b-87d3-45f7ef9b5287": [
+                "sprite_altas/ui/img_rank_1.png",
+                "cc.Texture2D"
+            ],
+            "ff92c105-fc3d-42c3-90ad-d8245363109c": [
+                "sprite_altas/ui/img_rank_2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9488bbec-03be-49e8-a839-592823d689f6": [
+                "sprite_altas/ui/img_rank_2.png",
+                "cc.Texture2D"
+            ],
+            "e4889d84-4495-4249-92b1-aa7d79c905e2": [
+                "sprite_altas/ui/img_rank_3",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a5e59ced-790a-4c36-b229-de9ea66773c7": [
+                "sprite_altas/ui/img_rank_3.png",
+                "cc.Texture2D"
+            ],
+            "7dad94a1-f125-4972-8d5f-aa6204a8e15f": [
+                "sprite_altas/ui/img_result_light",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1d09a653-e4db-4f57-bb5c-15d5997486df": [
+                "sprite_altas/ui/img_result_light.png",
+                "cc.Texture2D"
+            ],
+            "c4d4ed51-6513-463d-9908-53ae4ef23ab4": [
+                "sprite_altas/ui/img_result_panel",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6744d0d1-7ab9-4685-ab60-0e0a70cfdaf2": [
+                "sprite_altas/ui/img_result_panel.png",
+                "cc.Texture2D"
+            ],
+            "c91712d9-bd01-44e4-919e-4541b7ae0ad3": [
+                "sprite_altas/ui/img_round",
+                "cc.SpriteFrame",
+                1
+            ],
+            "21da85dd-0cc9-4c23-81d1-8d5ef4f10549": [
+                "sprite_altas/ui/img_round.png",
+                "cc.Texture2D"
+            ],
+            "969eb13f-aa19-400d-b957-eee79011900e": [
+                "sprite_altas/ui/img_save",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d8bbbeb1-481a-4edd-9989-401dfb6e4e3d": [
+                "sprite_altas/ui/img_save.png",
+                "cc.Texture2D"
+            ],
+            "41bfe47a-de0e-413c-a006-b54917b72382": [
+                "sprite_altas/ui/img_score",
+                "cc.SpriteFrame",
+                1
+            ],
+            "76c9507b-5f0e-42c4-8bed-71b6dcde84f7": [
+                "sprite_altas/ui/img_score.png",
+                "cc.Texture2D"
+            ],
+            "b5755bb0-3a6e-482d-847a-5c3de6d6cc42": [
+                "sprite_altas/ui/img_shader",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9da50a67-d36c-44c0-ad3c-0bdc9b2b4e3d": [
+                "sprite_altas/ui/img_shader.png",
+                "cc.Texture2D"
+            ],
+            "dc703627-4860-42a6-9f58-d7682259abfa": [
+                "sprite_altas/ui/img_star",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3647f543-ab08-44ad-83df-09f6a42457be": [
+                "sprite_altas/ui/img_star.png",
+                "cc.Texture2D"
+            ],
+            "c0ee799f-dd28-42e1-acae-a0939889658e": [
+                "sprite_altas/ui/img_store_gift_back",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ff0baf9c-a1a4-4dc9-80ee-65ec336cd083": [
+                "sprite_altas/ui/img_store_gift_back.png",
+                "cc.Texture2D"
+            ],
+            "b194dd76-e770-4b19-abbf-883234aeb58b": [
+                "sprite_altas/ui/img_store_head",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b6f26839-7434-48a6-b6f0-f67a179fce4f": [
+                "sprite_altas/ui/img_store_head.png",
+                "cc.Texture2D"
+            ],
+            "90e2f4f0-3d5e-4666-bae2-12ab6ed3dea4": [
+                "sprite_altas/ui/img_store_headBanner",
+                "cc.SpriteFrame",
+                1
+            ],
+            "aa1ca063-2f64-4737-9092-b12ed3dea5e4": [
+                "sprite_altas/ui/img_store_headBanner.png",
+                "cc.Texture2D"
+            ],
+            "fc95e52c-1f7e-4cbc-be65-eb65dfa64582": [
+                "sprite_altas/ui/img_store_headBanner_down",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5e1fcbaf-21f2-4929-8e13-333eb75a0b07": [
+                "sprite_altas/ui/img_store_headBanner_down.png",
+                "cc.Texture2D"
+            ],
+            "230f47d7-c94f-4ed1-8104-a16dc9436684": [
+                "sprite_altas/ui/img_store_item_back",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f5960ec9-841d-451a-b01a-e9bbd281d6f1": [
+                "sprite_altas/ui/img_store_item_back.png",
+                "cc.Texture2D"
+            ],
+            "fe3ff425-4b90-432c-ae25-622aec759a6b": [
+                "sprite_altas/ui/img_store_mouse_old_people",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5a13ccfc-f3dc-444a-86ed-3d101a915aea": [
+                "sprite_altas/ui/img_store_mouse_old_people.png",
+                "cc.Texture2D"
+            ],
+            "1f272013-45f2-4513-b92e-de90ea631696": [
+                "sprite_altas/ui/img_titleback",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b2023d54-15a0-43fc-9688-b33702d5e5e4": [
+                "sprite_altas/ui/img_titleback.png",
+                "cc.Texture2D"
+            ],
+            "66e18361-340d-4d97-b42a-cad990d08862": [
+                "sprite_altas/ui/img_turn",
+                "cc.SpriteFrame",
+                1
+            ],
+            "25940640-010f-4ed7-8b04-b76553889d89": [
+                "sprite_altas/ui/img_turn.png",
+                "cc.Texture2D"
+            ],
+            "f618d0fe-08a7-4efe-bde4-db9f1fb3e2bf": [
+                "sprite_altas/ui/img_turntable",
+                "cc.SpriteFrame",
+                1
+            ],
+            "98ae94f1-1d3e-4e1e-b7d3-b77a238bfcb8": [
+                "sprite_altas/ui/img_turntable.png",
+                "cc.Texture2D"
+            ],
+            "de9f5dd2-ec3a-491a-b92c-40d610a56150": [
+                "sprite_altas/ui/img_white1x1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9643b069-e69e-4284-86c6-1154f3f13d04": [
+                "sprite_altas/ui/img_white1x1.png",
+                "cc.Texture2D"
+            ],
+            "88602604-c321-46c8-9a68-9fb3c054f8ad": [
+                "sprite_altas/ui/img_woman",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4f154a55-aef2-4d96-af2f-d2ccc56b4028": [
+                "sprite_altas/ui/img_woman.png",
+                "cc.Texture2D"
+            ],
+            "df67ed79-827d-4e46-8fbc-c5fbb6d2c6ff": [
+                "sprite_altas/ui/img_woodBanner",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d6a1cdd7-5484-4440-9946-9b7ee14ba376": [
+                "sprite_altas/ui/img_woodBanner.png",
+                "cc.Texture2D"
+            ],
+            "50496b3a-ab27-47da-8729-6a9db5a0d442": [
+                "sprite_altas/ui/img_yellowBottom",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d4a7219d-503d-4726-aee0-c9aff7356b70": [
+                "sprite_altas/ui/img_yellowBottom.png",
+                "cc.Texture2D"
+            ],
+            "6ac72498-a1da-4f14-8878-bc1d8d7052bc": [
+                "sprite_altas/ui/logo",
+                "cc.SpriteFrame",
+                1
+            ],
+            "18074ed5-5077-4ff8-ad00-1a5af6cabfd5": [
+                "sprite_altas/ui/logo.png",
+                "cc.Texture2D"
+            ],
+            "baa77ac1-1526-43f7-9e9d-4ee71645dc48": [
+                "sprite_altas/ui/pay_back",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a48cda95-d9bb-45d9-b969-4888a77823d6": [
+                "sprite_altas/ui/pay_back.png",
+                "cc.Texture2D"
+            ],
+            "68846943-1aee-4a37-9621-9682a39195f6": [
+                "sprite_altas/ui/pay_close",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6c3e3309-938b-49d4-9c84-c15b40dceb94": [
+                "sprite_altas/ui/pay_close.png",
+                "cc.Texture2D"
+            ],
+            "5d44495c-0c90-4149-9d5a-d6099a1cb67f": [
+                "sprite_altas/ui/pay_cut_line",
+                "cc.SpriteFrame",
+                1
+            ],
+            "814f83ba-31cc-49fd-8307-a3e617834e74": [
+                "sprite_altas/ui/pay_cut_line.png",
+                "cc.Texture2D"
+            ],
+            "ffb1242b-e909-4c57-9b7d-9b0ac243f445": [
+                "sprite_altas/ui/skin_1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "81f90e5c-098b-4b6d-96e3-e284681903f6": [
+                "sprite_altas/ui/skin_1.png",
+                "cc.Texture2D"
+            ],
+            "ecbb5445-44c5-4ed0-bd7d-aacc110a67c3": [
+                "sprite_altas/ui/skin_2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "26629e57-d79f-4dc4-bea7-0988cf1e962e": [
+                "sprite_altas/ui/skin_2.png",
+                "cc.Texture2D"
+            ],
+            "60fbc388-995b-4c89-842a-14168766c7a7": [
+                "sprite_altas/ui/skin_3",
+                "cc.SpriteFrame",
+                1
+            ],
+            "71e0eab5-87dc-49ed-a9e5-3d8f20197de0": [
+                "sprite_altas/ui/skin_3.png",
+                "cc.Texture2D"
+            ],
+            "9a2678e5-c11c-4026-890f-d8d6d4baca9f": [
+                "sprite_altas/ui/skin_4",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8b919db8-386f-438c-8b26-9d2f9d6acf30": [
+                "sprite_altas/ui/skin_4.png",
+                "cc.Texture2D"
+            ],
+            "6cbb8989-a4bb-4897-8dc9-db393f040461": [
+                "sprite_altas/ui/skin_5",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bc26463e-a60a-459a-b8e7-985d251d558c": [
+                "sprite_altas/ui/skin_5.png",
+                "cc.Texture2D"
+            ],
+            "0de7d925-4253-4bc4-ab1c-967ede65bc8a": [
+                "sprite_altas/ui/skin_6",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ecbcd5c2-36ea-496d-bdc1-8f0f725fe88e": [
+                "sprite_altas/ui/skin_6.png",
+                "cc.Texture2D"
+            ],
+            "a7c98fb4-0c17-49a3-85cd-f62bf7445c2d": [
+                "sprite_altas/ui/skin_7",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0b42c375-a355-4038-aa8c-ef4375b805f3": [
+                "sprite_altas/ui/skin_7.png",
+                "cc.Texture2D"
+            ],
+            "28fab4f3-6828-47db-83bb-4add21435d0f": [
+                "sprite_altas/ui/skin_8",
+                "cc.SpriteFrame",
+                1
+            ],
+            "392f0530-d594-42d1-826c-831e43cec34f": [
+                "sprite_altas/ui/skin_8.png",
+                "cc.Texture2D"
+            ],
+            "91f4949d-b6ca-462e-a419-3e8a0dfef79f": [
+                "sprite_altas/ui/skin_9",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b9c0affb-68b4-45b7-acd8-e10e8d9cb9ea": [
+                "sprite_altas/ui/skin_9.png",
+                "cc.Texture2D"
+            ],
+            "a932c76c-74ed-40de-9c71-c06820c2fca3": [
+                "sprite_altas/ui/ui.pac",
+                "cc.SpriteAtlas"
+            ]
+        }
+    },
+    launchScene: "db://assets/scene/main.fire",
+    scenes: [
+        {
+            url: "db://assets/scene/main.fire",
+            uuid: "03371ef8-09bc-4920-8187-d10722315234"
+        }
+    ],
+    packedAssets: {},
+    md5AssetsMap: {},
+    debug: true
+};

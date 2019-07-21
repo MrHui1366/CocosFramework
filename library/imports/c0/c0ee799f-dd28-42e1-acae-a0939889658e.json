@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_store_gift_back",
+    "texture": "ff0baf9c-a1a4-4dc9-80ee-65ec336cd083",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      42,
+      146
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      146
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

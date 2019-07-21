@@ -1,0 +1,138 @@
+2019-07-21T00:53:15.914Z - normal: Load ~/.CocosCreator/settings.json
+2019-07-21T00:53:17.088Z - normal: Initializing Asset Database
+2019-07-21T00:53:17.095Z - normal: checking language setting...
+2019-07-21T00:53:17.095Z - normal: Language: zh
+2019-07-21T00:53:17.947Z - success: preview server running at http://localhost:7456
+2019-07-21T00:53:17.949Z - success: protocol editor-framework registered
+2019-07-21T00:53:17.949Z - success: protocol app registered
+2019-07-21T00:53:17.949Z - success: protocol theme registered
+2019-07-21T00:53:17.950Z - success: protocol packages registered
+2019-07-21T00:53:17.950Z - success: protocol uuid registerred
+2019-07-21T00:53:17.950Z - success: protocol db registerred
+2019-07-21T00:53:17.950Z - success: protocol thumbnail registerred
+2019-07-21T00:53:17.950Z - success: protocol unpack registerred
+2019-07-21T00:53:17.950Z - success: protocol disable-commonjs registerred
+2019-07-21T00:53:18.147Z - normal: connected!
+2019-07-21T00:53:18.151Z - normal: Check project D:\CreatorWork\Framework
+2019-07-21T00:53:18.156Z - normal: Initializing project D:\CreatorWork\Framework
+2019-07-21T00:53:18.637Z - normal: Initializing Cocos2d
+2019-07-21T00:53:20.794Z - normal: Initializing engine extends
+2019-07-21T00:53:20.840Z - success: asset-db-debugger loaded
+2019-07-21T00:53:20.849Z - success: baidu-adapter loaded
+2019-07-21T00:53:20.856Z - success: color-picker loaded
+2019-07-21T00:53:20.984Z - success: fb-audience-network loaded
+2019-07-21T00:53:21.064Z - success: fb-live-stream loaded
+2019-07-21T00:53:21.084Z - success: google-play-instant loaded
+2019-07-21T00:53:21.111Z - success: huawei-runtime loaded
+2019-07-21T00:53:21.601Z - success: cpk-publish loaded
+2019-07-21T00:53:21.605Z - success: jsb-adapter loaded
+2019-07-21T00:53:21.633Z - success: oppo-runtime loaded
+2019-07-21T00:53:21.645Z - success: package-manager loaded
+2019-07-21T00:53:21.872Z - success: qqplay-adapter loaded
+2019-07-21T00:53:21.880Z - success: runtime-dev-tools loaded
+2019-07-21T00:53:21.895Z - success: sdkbox loaded
+2019-07-21T00:53:21.906Z - success: tester loaded
+2019-07-21T00:53:21.914Z - success: ui-grid loaded
+2019-07-21T00:53:21.922Z - success: ui-kit-preview-extra loaded
+2019-07-21T00:53:21.930Z - success: ui-kit-preview loaded
+2019-07-21T00:53:21.932Z - success: ui-kit loaded
+2019-07-21T00:53:21.941Z - success: ui-tree loaded
+2019-07-21T00:53:21.965Z - success: vivo-runtime loaded
+2019-07-21T00:53:21.969Z - success: weapp-adapter loaded
+2019-07-21T00:53:21.972Z - success: xiaomi-adapter loaded
+2019-07-21T00:53:22.019Z - success: assets loaded
+2019-07-21T00:53:22.021Z - success: builder loaded
+2019-07-21T00:53:22.299Z - success: cocos-services loaded
+2019-07-21T00:53:22.304Z - success: console loaded
+2019-07-21T00:53:22.339Z - success: fb-instant-games loaded
+2019-07-21T00:53:22.340Z - success: google-instant-games loaded
+2019-07-21T00:53:22.345Z - success: hierarchy loaded
+2019-07-21T00:53:22.347Z - success: inspector loaded
+2019-07-21T00:53:22.349Z - success: keystore loaded
+2019-07-21T00:53:22.352Z - success: node-library loaded
+2019-07-21T00:53:22.354Z - success: package-asset loaded
+2019-07-21T00:53:22.355Z - success: preferences loaded
+2019-07-21T00:53:22.356Z - success: project-exporter loaded
+2019-07-21T00:53:22.358Z - success: project-importer loaded
+2019-07-21T00:53:22.360Z - success: project-settings loaded
+2019-07-21T00:53:22.364Z - success: scene loaded
+2019-07-21T00:53:22.365Z - success: simulator-debugger loaded
+2019-07-21T00:53:22.366Z - success: sprite-editor loaded
+2019-07-21T00:53:22.369Z - success: store loaded
+2019-07-21T00:53:22.373Z - success: timeline loaded
+2019-07-21T00:53:22.378Z - success: xiaomi-runtime loaded
+2019-07-21T00:53:26.523Z - normal: Loading packages
+2019-07-21T00:53:26.530Z - normal: Watching packages
+2019-07-21T00:53:26.988Z - normal: Run Application
+2019-07-21T00:53:34.306Z - info: Cocos Services load base data!
+2019-07-21T01:24:15.971Z - error: ReferenceError: ccServicesAnalytics is not defined
+    at Vue.serviceItemClick (C:\CocosCreator_2.0.10\resources\app.asar\editor\builtin\cocos-services\panel\index.js:1:4280)
+    at Vue.serviceItemClick (app://node_modules/vue/dist/vue.js:220:54)
+    at Vue.eval (eval at makeGetterFn (app://node_modules/vue/dist/vue.js:3041:12), <anonymous>:3:32)
+    at ServiceList.statementHandler (app://node_modules/vue/dist/vue.js:9053:32)
+    at ServiceList.Vue.$emit (app://node_modules/vue/dist/vue.js:9503:22)
+    at ServiceList.handleServiceItemClick (C:\CocosCreator_2.0.10\resources\app.asar\editor\builtin\cocos-services\panel\serviceList\serviceList.js:1:2016)
+    at ServiceList.handleServiceItemClick (app://node_modules/vue/dist/vue.js:220:54)
+    at ServiceList.eval (eval at makeGetterFn (app://node_modules/vue/dist/vue.js:3041:12), <anonymous>:3:15)
+    at HTMLDivElement.handler (app://node_modules/vue/dist/vue.js:8603:10)
+    at HTMLDivElement.stopHandler (app://node_modules/vue/dist/vue.js:5264:20)
+2019-07-21T01:24:36.809Z - error: ReferenceError: ccServicesAnalytics is not defined
+    at Vue.serviceItemClick (C:\CocosCreator_2.0.10\resources\app.asar\editor\builtin\cocos-services\panel\index.js:1:4280)
+    at Vue.serviceItemClick (app://node_modules/vue/dist/vue.js:220:54)
+    at Vue.eval (eval at makeGetterFn (app://node_modules/vue/dist/vue.js:3041:12), <anonymous>:3:32)
+    at ServiceList.statementHandler (app://node_modules/vue/dist/vue.js:9053:32)
+    at ServiceList.Vue.$emit (app://node_modules/vue/dist/vue.js:9503:22)
+    at ServiceList.handleServiceItemClick (C:\CocosCreator_2.0.10\resources\app.asar\editor\builtin\cocos-services\panel\serviceList\serviceList.js:1:2016)
+    at ServiceList.handleServiceItemClick (app://node_modules/vue/dist/vue.js:220:54)
+    at ServiceList.eval (eval at makeGetterFn (app://node_modules/vue/dist/vue.js:3041:12), <anonymous>:3:15)
+    at HTMLDivElement.handler (app://node_modules/vue/dist/vue.js:8603:10)
+    at HTMLDivElement.stopHandler (app://node_modules/vue/dist/vue.js:5264:20)
+2019-07-21T02:08:01.726Z - error: Failed to create asset db://assets/scene/main.fire, messages: Error: Parent path D:\CreatorWork\Framework\assets\scene is not exists
+    at u.l.create (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\lib\tasks.js:1:18447)
+    at _tasks.r.queue (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\index.js:1:2264)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Object.process (C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:911:19
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at u.<anonymous> (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\index.js:1:1883)
+    at t.series.t (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\core\watch.js:1:1244)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:726:13
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:52:16
+    at u.o.error (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\lib\utils.js:1:2273)
+    at Object._tasks.push [as callback] (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\lib\interface.js:1:4937)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at u.<anonymous> (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\index.js:1:1883)
+    at u.l.create (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\lib\tasks.js:1:18445)
+    at _tasks.r.queue (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\index.js:1:2264)
+2019-07-21T02:08:01.728Z - error: Failed to create asset db://assets/scene/main.fire, messages: Error: Parent path D:\CreatorWork\Framework\assets\scene is not exists
+    at u.l.create (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\lib\tasks.js:1:18447)
+    at _tasks.r.queue (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\index.js:1:2264)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Object.process (C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:911:19
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at u.<anonymous> (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\index.js:1:1883)
+    at t.series.t (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\core\watch.js:1:1244)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:726:13
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:52:16
+    at u.o.error (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\lib\utils.js:1:2273)
+    at e.existsSync.Editor.assetdb.create (C:\CocosCreator_2.0.10\resources\app.asar\editor\builtin\scene\main.js:1:1687)
+    at Object._tasks.push [as callback] (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\lib\interface.js:1:4999)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\CocosCreator_2.0.10\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at u.<anonymous> (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\index.js:1:1883)
+    at u.l.create (C:\CocosCreator_2.0.10\resources\app.asar\asset-db\lib\tasks.js:1:18445)
+2019-07-21T02:08:01.776Z - error: [object Object]
+    at t.scene.close (C:\CocosCreator_2.0.10\resources\app.asar\editor\page\scene-utils\edit-mode\index.js:1:1244)
+    at s (C:\CocosCreator_2.0.10\resources\app.asar\editor\page\scene-utils\edit-mode\modes\scene.js:1:1670)
+    at EventEmitter.o.on.n (C:\CocosCreator_2.0.10\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:3757)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+2019-07-21T02:08:01.776Z - failed: Task [close-scene] run error, stop running other tasks.
+ [object Object]
+2019-07-21T02:08:02.278Z - info: shutdown preview server

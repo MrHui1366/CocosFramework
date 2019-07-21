@@ -1,0 +1,15 @@
+{
+  "user": {
+    "name": "User",
+    "prefab": [
+      {
+        "name": "head_circle",
+        "uuid": "49bea8a9-a24f-4d6a-9183-e058cffc6db6"
+      },
+      {
+        "name": "scroll_view",
+        "uuid": "277b9658-d36f-4e57-9613-3374016f0807"
+      }
+    ]
+  }
+}

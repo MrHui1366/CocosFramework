@@ -1,0 +1,15 @@
+{
+  "packedTextures": [
+    {
+      "path": "D:\\CreatorWork\\Framework\\temp\\TexturePacker\\resources\\sprite_altas\\ui\\ui.pac\\ui-1.png",
+      "name": "ui-1.png",
+      "size": "1024x1024"
+    },
+    {
+      "path": "D:\\CreatorWork\\Framework\\temp\\TexturePacker\\resources\\sprite_altas\\ui\\ui.pac\\ui-2.png",
+      "name": "ui-2.png",
+      "size": "1024x1024"
+    }
+  ],
+  "unpackedTextures": []
+}
