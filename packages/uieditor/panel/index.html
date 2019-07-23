@@ -1,0 +1,58 @@
+<ui-button id="btn" @confirm="onLoadClick">加载场景清单</ui-button>
+<hr />
+<div class="layout horizontal">
+    <ui-button class="justified" @confirm="onExportClick($event,false)" v-if="inited">导出(不覆盖)</ui-button>
+    <ui-button class="justified" @confirm="onExportClick($event,true)" v-if="inited">导出(覆盖)</ui-button>
+</div>
+
+<br>
+<div id="view" class="scroll">
+    <!-- UI容器 -->
+    <ui-box-container v-for="uitem in uis" style="margin-bottom:10px">
+        <!-- 节点 -->
+        <div class="ui layout vertical" v-for="node in uitem" :class="[node.isroot ? header : child]"
+            :style="{paddingLeft:node.offset*4+5}">
+            <!-- 标题 -->
+            <div class="layout vertical" v-if="node.isroot">
+                <div class="layout horizontal">
+                    <div class="justified">{{ node.name }}</div>
+                    <div style="position: absolute;right:5px">
+                        <ui-checkbox checked="{{node.outevent}}" @change="node.outevent=!node.outevent" v-if="node.out">
+                            导出事件
+                        </ui-checkbox>
+                        <ui-checkbox checked="{{node.isSingleton}}" @change="node.isSingleton=!node.isSingleton">是否单例UI
+                        </ui-checkbox>
+                        <ui-checkbox checked="{{node.out}}" @change="node.out=!node.out">是否导出
+                        </ui-checkbox>
+                    </div>
+                </div>
+                <ui-input style="margin-top: 5px" placeholder="请输入注释..." v-if="node.out"
+                    @change="onchange($event,node)">
+                    {{node.desc}}</ui-input>
+            </div>
+            <!-- 非标题 -->
+            <div class="layout vertical" v-if="!node.isroot">
+                <!-- 节点 -->
+                <div class="layout horizontal justified" style="height:21px">
+                    <ui-checkbox checked="{{node.out}}" @change="node.out=!node.out">{{ node.name }}
+                    </ui-checkbox>
+                    <ui-input placeholder="请输入注释..." v-if="node.out" @change="onchange($event,node)">{{node.desc}}
+                    </ui-input>
+                </div>
+                <!-- 组件 -->
+                <div class="layout horizontal justified" v-for="comp in node.comps"
+                    style="height:21px;padding-left: 15px">
+                    <ui-checkbox checked="{{comp.out}}" @change="comp.out=!comp.out">
+                        {{comp.name}}
+                    </ui-checkbox>
+                    <ui-input placeholder="请输入注释..." v-if="comp.out" @change="onchange($event,comp)">{{comp.desc}}
+                    </ui-input>
+                </div>
+
+            </div>
+
+        </div>
+
+</div>
+</ui-box-container>
+</div>

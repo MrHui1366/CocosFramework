@@ -3,6 +3,8 @@ import CoffeeBean from "../coffee_bean/CoffeeBean";
 import { CLoading } from "../coffee_bean/component/CLoading";
 import { ETheme } from "../coffee_bean/common/CEnum";
 import CTime from "../coffee_bean/utils/CTime";
+import CRes from "../coffee_bean/core/CRes";
+import UI_Popup from "./ui/UI_Popup/UI_Popup";
 
 
 const { ccclass, property } = cc._decorator;
@@ -24,10 +26,14 @@ export default class Sample extends cc.Component {
     /**
      * Start
      */
-    protected start (): void {
+    protected async start () {
         let a;
         let b: number;
         let c: boolean = true;
+
+        await CRes.loadResDirAsnyc( "prefab/ui", cc.Prefab );
+
+        UI_Popup.createUI();
     }
 }
 

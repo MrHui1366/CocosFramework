@@ -22,6 +22,11 @@ namespace cc {
         getChildByRelativePath ( this: cc.Node, relative_path: string ): cc.Node;
 
         /**
+         * 获得所有的组件
+         */
+        getAllComponents ( this: cc.Node ): cc.Component[];
+
+        /**
          * 强调一个节点
          * @param type 1 放大强调  2 颜色强调 3 闪烁  4 跳1下
          */

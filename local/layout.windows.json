@@ -14,28 +14,29 @@
           {
             "children": [
               {
-                "active": 0,
+                "active": 2,
                 "children": [
                   "hierarchy",
-                  "node-library"
+                  "node-library",
+                  "scener"
                 ],
-                "height": 468,
+                "height": 622.984375,
                 "type": "panel",
-                "width": 459
+                "width": 332
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 467,
+                "height": 312,
                 "type": "panel",
-                "width": 459
+                "width": 332
               }
             ],
             "height": 937,
             "type": "dock-v",
-            "width": 459
+            "width": 332
           },
           {
             "children": [
@@ -44,34 +45,34 @@
                 "children": [
                   "scene"
                 ],
-                "height": 669,
+                "height": 645,
                 "type": "panel",
-                "width": 1048.984375
+                "width": 1144.984375
               },
               {
-                "active": 1,
+                "active": 0,
                 "children": [
                   "console",
                   "timeline"
                 ],
-                "height": 266,
+                "height": 290,
                 "type": "panel",
-                "width": 1048.984375
+                "width": 1144.984375
               }
             ],
             "height": 937,
             "type": "dock-v",
-            "width": 1048.984375
+            "width": 1144.984375
           },
           {
             "active": 1,
             "children": [
               "inspector",
-              "cocos-services"
+              "uieditor"
             ],
             "height": 937,
             "type": "panel",
-            "width": 408
+            "width": 439
           }
         ],
         "type": "dock-h"
@@ -79,11 +80,12 @@
       "panels": [
         "hierarchy",
         "node-library",
+        "scener",
         "assets",
         "console",
         "timeline",
         "inspector",
-        "cocos-services",
+        "uieditor",
         "scene"
       ]
     }
@@ -96,8 +98,8 @@
       "height": 565
     },
     "uieditor": {
-      "x": 1187,
-      "y": 222,
+      "x": 987,
+      "y": 283,
       "width": 416,
       "height": 339
     },
@@ -112,6 +114,36 @@
       "y": -8,
       "width": 1936,
       "height": 1056
+    },
+    "ui-kit-preview": {
+      "x": 245,
+      "y": 172,
+      "width": 853,
+      "height": 693
+    },
+    "ui-kit-preview-extra": {
+      "x": 552,
+      "y": 190,
+      "width": 816,
+      "height": 639
+    },
+    "ui-kit": {
+      "x": 273,
+      "y": 363,
+      "width": 816,
+      "height": 639
+    },
+    "tester": {
+      "x": 144,
+      "y": 124,
+      "width": 516,
+      "height": 839
+    },
+    "scener": {
+      "x": 994,
+      "y": 275,
+      "width": 416,
+      "height": 339
     }
   }
 }

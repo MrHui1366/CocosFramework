@@ -1,0 +1,8 @@
+<div id="view" class="scroll">
+    <ui-section v-for="(key, value) in scenes">
+        <div class="header">
+            {{key}}
+        </div>
+        <ui-button v-for="sname in value" @click="onclick(key,sname)">{{sname.slice(0,-5)}}</ui-button>
+    </ui-section>
+</div>

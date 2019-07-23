@@ -10,10 +10,17 @@ cc.Node.prototype.findChildComponent = function <T extends cc.Component> ( this:
         let comp = child.getComponent( type );
         return comp as T;
     } else {
-
         return null;
     }
 }
+
+/**
+ * 获得所有的组件
+ */
+cc.Node.prototype.getAllComponents = function ( this: cc.Node ): cc.Component[] {
+    return this[ "_components" ];
+}
+
 
 /**
  * 扩展cc.Node类
@@ -111,3 +118,4 @@ cc.Node.prototype.reset = function ( this: cc.Node ): void {
     this.setAnchorPoint( 0.5, 0.5 );
     this.setScale( 1, 1 );
 }
+

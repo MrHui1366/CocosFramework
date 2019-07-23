@@ -1,0 +1,20 @@
+{
+    "name": "uieditor",
+    "version": "0.0.1",
+    "description": "一份简单的扩展包",
+    "author": "Leo",
+    "main": "main.js",
+    "main-menu": {
+        "工具/UI导出器": {
+            "message": "uieditor:open"
+        }
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "UI导出器",
+        "width": 400,
+        "height": 300
+    },
+    "scene-script": "scene-walker.js"
+}
