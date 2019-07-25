@@ -1,13 +1,10 @@
-import CLOG from "../coffee_bean/utils/CLOG";
 import CoffeeBean from "../coffee_bean/CoffeeBean";
-import { CLoading } from "../coffee_bean/component/CLoading";
-import { ETheme } from "../coffee_bean/common/CEnum";
-import CTime from "../coffee_bean/utils/CTime";
 import CRes from "../coffee_bean/core/CRes";
 import UI_Popup from "./ui/UI_Popup/UI_Popup";
+import { Net } from "./netmsgs/msgs";
 
 
-const { ccclass, property } = cc._decorator;
+const { ccclass } = cc._decorator;
 
 /**
  * 示例类
@@ -27,16 +24,25 @@ export default class Sample extends cc.Component {
      * Start
      */
     protected async start () {
-        let a;
-        let b: number;
-        let c: boolean = true;
 
         await CRes.loadResDirAsnyc( "prefab/ui", cc.Prefab );
 
         UI_Popup.createUI();
+
+        let t = new Net.Test1();
+        t.id = 10;
+        t.name = "123";
+
+        let buffer = Net.Test1.encode( t ).finish();
+        cc.log( "buffer = " + buffer );
+        // cc.log( `buffer = ${ Array.prototype.toString.call( buffer ) }` );
+        // ... do something with buffer
+
+        // Decode an Uint8Array (browser) or Buffer (node) to a message
+        let decoded = Net.Test1.decode( buffer );
+        cc.log( "decoded = " + decoded );
+        // cc.log( `decoded = ${ JSON.stringify( decoded ) }` );
+
+
     }
-}
-
-class tt {
-
 }

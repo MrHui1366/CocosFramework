@@ -14,11 +14,10 @@
           {
             "children": [
               {
-                "active": 2,
+                "active": 0,
                 "children": [
                   "hierarchy",
-                  "node-library",
-                  "scener"
+                  "node-library"
                 ],
                 "height": 622.984375,
                 "type": "panel",
@@ -65,10 +64,9 @@
             "width": 1144.984375
           },
           {
-            "active": 1,
+            "active": 0,
             "children": [
-              "inspector",
-              "uieditor"
+              "inspector"
             ],
             "height": 937,
             "type": "panel",
@@ -80,12 +78,10 @@
       "panels": [
         "hierarchy",
         "node-library",
-        "scener",
         "assets",
         "console",
         "timeline",
         "inspector",
-        "uieditor",
         "scene"
       ]
     }
@@ -144,6 +140,18 @@
       "y": 275,
       "width": 416,
       "height": 339
+    },
+    "sprite-editor": {
+      "x": 702,
+      "y": 240,
+      "width": 516,
+      "height": 539
+    },
+    "preferences": {
+      "x": 662,
+      "y": 240,
+      "width": 600,
+      "height": 565
     }
   }
 }

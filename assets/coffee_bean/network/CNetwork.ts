@@ -29,7 +29,6 @@ export default class CNetwork {
     /** 连接成功回调 ***/
     private static onOpenCallback: Function = null;
 
-
     /** 连接异常回调 ***/
     private static onErrorCallback: Function = null;
 
@@ -43,19 +42,18 @@ export default class CNetwork {
     public static tryConnect ( url: string ): void {
         CLOG.IF( TAG_SOCKET, SHOW_SOCKET_LOG, "ready to connect to " + URL );
 
-        if ( URL !== undefined ) {
-            // 指派了地址就连接指派的地址
-            this.socket = new WebSocket( url );
+        // 指派了地址就连接指派的地址
+        this.socket = new WebSocket( url );
 
-            //记录当前准备连接的服务器地址
-            this.nowConnectServerURL = url;
-        }
+        //记录当前准备连接的服务器地址
+        this.nowConnectServerURL = url;
 
         //初始化事件
         this.socket.onopen = this.onOpen;
         this.socket.onerror = this.onError;
         this.socket.onmessage = this.onMessage
         this.socket.onclose = this.onClose;
+
     }
 
 
@@ -77,6 +75,7 @@ export default class CNetwork {
      */
     private static onError ( event: Event ): void {
         CLOG.EF( TAG_SOCKET, SHOW_SOCKET_LOG, "Server: " + this.nowConnectServerURL + " connected error!!" );
+        this.isConnected = false;
         if ( this.onErrorCallback !== null ) {
             this.onErrorCallback( event )
         }
@@ -145,7 +144,6 @@ export default class CNetwork {
     public static setCloseCallback ( callback: Function ) {
         this.onCloseCallback = callback;
     }
-
 
     /**
      * 关闭Socket连接
